@@ -76,7 +76,6 @@ img {
 #badges {
     width: 100%;
     height: 30%;
-    transition: 1.5s;
 }
 
 .badge-sm, .badge {
