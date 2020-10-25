@@ -9,5 +9,5 @@ function copyID() {
     document.execCommand("copy");
 
     notification.style.opacity = 100;
-    setInterval(() => notification.style.opacity = 0, 2000);
+    setTimeout(() => notification.style.opacity = 0, 2000);
 }
