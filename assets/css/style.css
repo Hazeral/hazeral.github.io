@@ -203,3 +203,51 @@ img {
     opacity: 0;
     position: fixed;
 }
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+    #profile {
+        width: 80vw;
+    }
+
+    #top {
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #icon {
+        width: 100%;
+        height: 45%;
+        float: center;
+        margin-top: 1vh;
+    }
+
+    #icon > img {
+        height: 100%;
+    }
+
+    #info {
+        width: 100%;
+        float: center;
+        text-align: center;
+    }
+
+    #bottom {
+        height: 60%;
+    }
+
+    #connect {
+        display: block;
+    }
+
+    .card {
+        width: 45%;
+        margin-bottom: 2vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
